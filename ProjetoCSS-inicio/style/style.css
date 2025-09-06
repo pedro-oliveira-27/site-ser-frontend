@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+
+}
+
+.hero_content{
+    margin-top: 80px auto 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.hero_content h1{
+    color: white;
+    font-size: 56px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+}
+
+.hero_content p{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid #fff;
+    margin-top: 100px;
+}
+
+.hero nav ul{
+    margin:20px 80px 0 0;
+    text-align: right;
+    
+}
+
+.hero nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 9px;
+
+}
+
+.hero nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    letter-spacing: 2px;
+   
+}
+
+.hero nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+footer {
+    background-color: #989898; /* Fundo escuro */
+    color: #fff;              /* Texto branco */
+    text-align: center;
+    padding: 1px;
+    font-size: 14px;
+    margin-top: 50px;        /* Espaço acima do footer */
+    border-top: 2px solid #444; /* Linha de separação */
+    width: 100%;
+    
+    display: flex;  /* Ativa flexbox */
+    flex-direction: column; /* Itens em coluna */
+    align-items: center; /* Centraliza itens horizontalmente */
+    justify-content: center; /* Centraliza itens verticalmente */
+
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+   
+}
+
+footer a:hover {
+    color: blue;          /* Destaque ao passar o mouse */
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

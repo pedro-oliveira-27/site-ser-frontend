@@ -79,7 +79,7 @@ footer {
     background-color: #989898; /* Fundo escuro */
     color: #fff;              /* Texto branco */
     text-align: center;
-    padding: 1px;
+    padding: 30px;
     font-size: 14px;
     margin-top: 50px;        /* Espaço acima do footer */
     border-top: 2px solid #444; /* Linha de separação */
@@ -89,7 +89,8 @@ footer {
     flex-direction: column; /* Itens em coluna */
     align-items: center; /* Centraliza itens horizontalmente */
     justify-content: center; /* Centraliza itens verticalmente */
-
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
     
 }
 
@@ -106,8 +107,46 @@ footer a:hover {
 }
 
 
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+
+}
+
+section{
+    padding-top: 32px;
+
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+    
+}
+
+a.btn{
+   
+    margin-bottom: 2px;
+    background-color: #cdc7c3;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: blue;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
 
 
+}
 
 
 
